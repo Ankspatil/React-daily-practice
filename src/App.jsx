@@ -1,5 +1,6 @@
 
 import './App.css'
+import ConditionalRenduring from './components/ConditionalRenduring'
 import Counter from './components/Counter'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
     <>
       <Counter/>
+      <ConditionalRenduring />
     </>
   )
 }
